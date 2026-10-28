@@ -44,8 +44,8 @@ When an AI coding assistant designs, evaluates, or refactors a repository, this 
 
 Paste this into your AI coding assistant (Gemini CLI, Antigravity, Claude Code, Cursor, Codex):
 
+Clone or copy the directory into your skills folder, and verify it is registered.
 ```text
-# Clone or copy the directory into your skills folder, and verify it is registered.
 Install the codebase-topology-and-structure skill from https://github.com/hpdrr/codebase-topology-and-structure.git
 ```
 
