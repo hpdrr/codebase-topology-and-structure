@@ -45,7 +45,7 @@ When an AI coding assistant designs, evaluates, or refactors a repository, this 
 Paste this into your AI coding assistant (Gemini CLI, Antigravity, Claude Code, Cursor, Codex):
 
 ```text
-Install the codebase-topology-and-structure skill from https://github.com/<OWNER>/codebase-topology-and-structure.
+Install the codebase-topology-and-structure skill from https://github.com/hpdrr/codebase-topology-and-structure.
 Clone or copy the directory into your skills folder, and verify it is registered.
 ```
 
@@ -58,16 +58,16 @@ Clone this repository into your agent's skill directory:
 #### For Antigravity / Gemini CLI:
 ```bash
 # Global installation (available across all workspaces)
-git clone https://github.com/<OWNER>/codebase-topology-and-structure.git ~/.gemini/config/skills/codebase-topology-and-structure
+git clone https://github.com/hpdrr/codebase-topology-and-structure.git ~/.gemini/config/skills/codebase-topology-and-structure
 ```
 
 #### For Claude Code:
 ```bash
 # Workspace only
-git clone https://github.com/<OWNER>/codebase-topology-and-structure.git your-project/.claude/skills/codebase-topology-and-structure
+git clone https://github.com/hpdrr/codebase-topology-and-structure.git your-project/.claude/skills/codebase-topology-and-structure
 
 # User-level (all workspaces)
-git clone https://github.com/<OWNER>/codebase-topology-and-structure.git ~/.claude/skills/codebase-topology-and-structure
+git clone https://github.com/hpdrr/codebase-topology-and-structure.git ~/.claude/skills/codebase-topology-and-structure
 ```
 
 #### For Other Agent Frameworks:
